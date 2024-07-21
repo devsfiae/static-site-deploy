@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<link rel="shortcut icon" type="image/x-icon" href="favicon.ico">
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+    <!-- Open Graph Meta-Tags -->
+<meta property="og:title" content="Bar/Restaurant La Mediterranea">
+<meta property="og:description" content="Reservierung@La Mediterranea">
+<meta property="og:image" content="http://la-mediterranea.eu/img/beach_restaurant_sunset.jpg">
+<meta property="og:url" content="http://la-mediterranea.eu/index.html">
+
+<link rel="stylesheet" href="//code.jquery.com/ui/1.12.1/themes/base/jquery-ui.css">
+    <script src="https://code.jquery.com/jquery-1.12.4.js"></script>
+    <script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
+    <script>
+    $( function() {
+        $( "#datepicker" ).datepicker({
+            dateFormat: "yy-mm-dd"
+        });
+    } );
+    $( "#timepicker" ).timepicker({
+            timeFormat: "HH:mm:ss"
+        });
+    </script>
+<html>
+<head>
+<style>
+* {
+    box-sizing: border-box;
+}
+body {
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: black;
+}
+.header {
+    background-color: black;
+    color: silver;
+    padding: 20px;
+    text-align: left;
+    height: 10vh;
+}
+.row::after {
+    content: "";
+    clear: both;
+    display: table;
+}
+.leftcolumn {
+    color: silver;   
+    width: 20%;
+    height: 80%;
+    padding: 20px;
+    float: left;
+}
+.leftcolumn ul {
+    list-style-type: square;
+    margin: 0;
+    padding: 0;
+}
+
+.middelcolumn {
+    color: silver;
+    width: 60%;
+    height: 80%;
+    padding: 20px;
+    text-align: left;
+    float: left;
+    background-image: none;
+    background-size: 100%;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+.middelcolumn h1 {
+    text-align: center;
+}
+.middelcolumn p {
+    text-align: center;
+}
+
+.footer {
+    background-color: black;
+    color: silver;
+    height: 10vh;
+    padding: 10px;
+    text-align: center;
+}
+
+</style>
+</head>
+<body>
+
+<div class="header">
+    <h1>Reservieren @La Mediterranea</h1>
+</div>
+
+<div class="row">
+    <div class="leftcolumn">
+        <hr />
+        <h2>Navigation</h2>
+        <ul>
+        <li><a href="index.html">Start</a></li>
+        <li><a href="card.php">Speisekarte</a></li>
+        <li><a href="cocktails.php">Cocktailkarte</a></li>
+        <li><a href="events.html">Events</a></li>
+        <li><a href="team.html">Unser Team</a></li>
+        <li><a href="legal.html">Impressum</a></li>
+    </ul>
+    <hr >
+    <p>Datum:<br>
+        <input type="text" id="datepicker">
+    </p>
+    <p>Uhrzeit:<br> 
+        <select id="timepicker">
+            <option value="">Zeit</option>
+            <option value="17:00:00">17:00</option>
+            <option value="19:00:00">19:00</option>
+            <option value="21:00:00">21:00</option>
+        </select>
+        </p>
+    <p>Personen: 
+        <select id="quantity">
+            <option value="">Anzahl</option>
+            <option value="1">1</option>
+            <option value="2">2</option>
+            <option value="3">3</option>
+            <option value="4">4</option>
+            <option value="5">5</option>
+            <option value="6">6</option>
+            <option value="7">7</option>
+            <option value="8">8</option>
+            <option value="9">9</option>
+            <option value="10">10</option>
+            <option value="11">11</option>
+            <option value="12">12</option>
+            <option value="13">13</option>
+            <option value="14">14</option>
+            <option value="15">15</option>
+            <option value="16">16</option>
+        </select>
+    </p>
+</div>
+
+    <div class="middelcolumn">
+        <h1>Unsere Plätze</h1>
+        <p><img src="img/beach_restaurant_sunset.jpg" alt="Plätze" style="width:600px;height:600px;"></p>
+    </div>
+</div>
+
+<div class="footer">
+<hr />
+<p>© 2024 by Hiba, Irina Puya & Heiko</p>
+</div>
+
+</body>
+</html>
