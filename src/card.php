@@ -3,7 +3,7 @@
 
 <meta property="og:title" content="Bar/Restaurant La Mediterranea">
 <meta property="og:description" content="Speisekarte">
-<meta property="og:image" content="http://la-mediterranea.eu/img/food_menu.jpg">
+<meta property="og:image" content="http://la-mediterranea.eu/assets/food_menu.jpg">
 <meta property="og:url" content="http://la-mediterranea.eu/menu.php">
 <meta property="og:type" content="website">
 
@@ -106,7 +106,7 @@ body {
 
     <div class="middelcolumn">
         <h1>Unser Angebot</h1>
-        <p><img src="img/food_menu.jpg" alt="Angebot" style="width:150px;height:150px;"></p>
+        <p><assets src="assets/food_menu.jpg" alt="Angebot" style="width:150px;height:150px;"></p>
         <?php include 'food.php'; ?>
     </div>
 </div>

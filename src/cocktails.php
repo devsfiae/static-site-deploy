@@ -3,7 +3,7 @@
 
 <meta property="og:title" content="Bar/Restaurant La Mediterranea">
 <meta property="og:description" content="Cocktails">
-<meta property="og:image" content="http://la-mediterranea.eu/img/cocktails.png">
+<meta property="og:image" content="http://la-mediterranea.eu/assets/cocktails.png">
 <meta property="og:url" content="http://la-mediterranea.eu/cocktails.php">
 <meta property="og:type" content="website">
 <html>
@@ -112,7 +112,7 @@ body {
     Mojito 💣💣💣💣<br />
     Mit der Frische von Minze<br />
     € 7,50/0,35 l</p>
-    <p><img src="img/beach_sunset_cocktail.jpg" alt="La Mediterranea" style="width:150px;height:150px;"></p>
+    <p><assets src="assets/beach_sunset_cocktail.jpg" alt="La Mediterranea" style="width:150px;height:150px;"></p>
 </div>
 
 <div class="middelcolumn">
